@@ -45,7 +45,6 @@ def get_fundamentals_from_to(from_year, from_month, from_day,
                              to_year, to_month, to_day,
                              req_interval_sec=2):
     """Gets fundamentals of a specific period from KRX.
-    특정 기간동안의 펀더멘털을 가져온다
 
     Args:
         from_year (int): from year.

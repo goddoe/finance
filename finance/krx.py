@@ -61,7 +61,7 @@ def get_fundamentals_from_to(from_year, from_month, from_day,
     """
 
     def date_range(from_date, to_date):
-        for i in range(int((to_date - from_date).days)):
+        for i in range(int((to_date - from_date).days)+1):
             yield from_date + timedelta(i)
 
     from_date = date(from_year, from_month, from_day)

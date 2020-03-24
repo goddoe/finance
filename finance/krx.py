@@ -53,7 +53,7 @@ def get_fundamentals_from_to(from_year, from_month, from_day,
         to_year (int): to year.
         to_month (int): to month.
         to_day (int): to day.
-        req_interval_sec (int): interval for requesting.
+        req_interval_sec (int): interval between requests.
 
     Returns:
         pd.DataFrame, a table that contains stock fundamentals.

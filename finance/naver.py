@@ -10,7 +10,7 @@ def get_fundamentals(req_interval_sec=1):
     """Gets today's fundamentals from Naver Finance.
 
     Args:
-        req_interval_sec (int): interval for requesting.
+        req_interval_sec (int): interval between requests.
 
     Returns:
         pd.DataFrame, a table that contains stock fundamentals.

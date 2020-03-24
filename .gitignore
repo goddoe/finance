@@ -1,0 +1,17 @@
+# env
+.idea/
+venv
+
+# trash
+**/__pycache__/
+**/.DS_Store
+**/.ipynb_checkpoints/
+.*.swp
+
+
+# binaries or data
+data/
+*.dat
+*.timestamp
+*.json
+*.pyc

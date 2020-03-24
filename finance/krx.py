@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 
 def get_fundamentals(year, month, day):
-    """Gets fundamentals at a specific date from KRX.
+    """Gets fundamentals from a specific date from KRX.
 
     Args:
         year (int): year.

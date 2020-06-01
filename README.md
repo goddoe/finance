@@ -3,7 +3,7 @@
 Toolset for analyzing the stock market.
 
 - features
-  - crawls market data from [NAVER finance](https://finance.naver.com/) or [KRX](http://marketdata.krx.co.kr/).
+  - crawls market data from either [NAVER finance](https://finance.naver.com/) or [KRX](http://marketdata.krx.co.kr/).
 
 
 

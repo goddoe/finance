@@ -20,6 +20,6 @@ companies_by_sector = naver.get_companies_by_sector()
 import finance.krx as krx
 
 fundamental = krx.get_fundamentals(2020, 3, 24)
-fundamental_of_thoseday = skrx.get_fundamentals_from_to(2020, 3, 17,
-                                                        2020, 3, 18)
+fundamental_of_thoseday = krx.get_fundamentals_from_to(2020, 3, 17,
+                                                       2020, 3, 18)
 ```
